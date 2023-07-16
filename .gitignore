@@ -1,0 +1,8 @@
+node_modules
+
+.angular
+
+/dist
+/build
+
+.env

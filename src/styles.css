@@ -1,0 +1,103 @@
+@import "./assets/fonts/stylesheet.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gilroy: 'Gilroy';
+    --merriweather: 'Merriweather';
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--gilroy);
+    background: #191411;
+    color: #fff;
+    font-style: normal;
+}
+
+img,
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+button,
+input,
+label,
+textarea,
+a {
+    cursor: pointer;
+}
+
+a,
+span,
+button,
+input,
+label,
+textarea {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: calc(1200px + 30px);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #DA8023 0%, #E2B438 100%);
+    padding: 19px 55px;
+
+    color: #191411;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #ac6115 0%, #9e7a19 100%);
+}
+
+.button:disabled{
+    cursor: not-allowed;
+    color: gray;
+    background: #343434;
+}
+
+.title-2 {
+    text-align: center;
+    font-family: var(--merriweather);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
