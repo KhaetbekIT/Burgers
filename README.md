@@ -1,27 +1,24 @@
-# Burger
+**🍔 Chedder Burgers — Учебный проект по созданию сайта бургерной**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Этот проект представляет собой одностраничный сайт бургерной **Chedder**, созданный в рамках учебной практики. Целью разработки было закрепление навыков вёрстки, адаптивного дизайна и базовой интерактивности с использованием современных технологий.
 
-## Development server
+🔧 **Технологии:**
 
-Run `ng serve` or `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* HTML5 / CSS3 / SCSS
+* Адаптивная вёрстка (Flexbox, Media Queries)
+* Методология BEM
+* Иконки и графика оптимизированы для Web
 
-## Code scaffolding
+📱 **Особенности:**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Адаптивный и кроссбраузерный интерфейс
+* Простая и понятная навигация
+* Стилизация форм и элементов интерфейса
+* Секция меню с карточками бургеров
+* Реализация базовой структуры сайта (header, main, footer)
 
-## Build
+🎯 **Назначение проекта:**
+Этот сайт разработан исключительно в учебных целях и не представляет собой реальный коммерческий ресурс.
 
-Run `ng build` or `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+📍 **Ссылка на сайт:**
+[https://burgers-chedder.netlify.app/](https://burgers-chedder.netlify.app/)
